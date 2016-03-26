@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="370sp"
+	    >
+		 <TextView  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="Please input the name to delete"
+		    />
+		 <EditText  
+		    android:layout_width="150sp" 
+		    android:layout_height="wrap_content" 
+		    android:id="@+id/nameEditText"
+		    />
+	
+		 <Button 
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:text="Delete Record"
+			android:id="@+id/deleteButton"
+			/>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+		<TableRow
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+		 >
+			<Button 
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:text="Search"
+				android:id="@+id/demoSearchButton" 
+				android:layout_weight="1"
+				/>
+				
+			<Button 
+				android:layout_height="fill_parent" 
+				android:layout_width="fill_parent"
+				android:text="Insert"  
+				android:id="@+id/demoAddButton" 
+				android:layout_weight="1"
+				/>
+			<Button 
+				android:layout_height="fill_parent" 
+				android:layout_width="fill_parent"
+				android:text="Update"  
+				android:id="@+id/demoUpdateButton" 
+				android:layout_weight="1"
+			/>
+			<Button 
+				android:layout_height="fill_parent" 
+				android:layout_width="fill_parent"
+				android:text="Delete"  
+				android:id="@+id/demoDeleteButton" 
+				android:layout_weight="1"
+			/>
+		</TableRow>
+	</LinearLayout>
+</LinearLayout>

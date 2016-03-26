@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *   Copyright (C) 2008-2009 Heikki Toivonen <My first name at heikkitoivonen.net>
+ *
+ *   Licensed under the Apache License, Version 2.0 (the "License");
+ *   you may not use this file except in compliance with the License.
+ *   You may obtain a copy of the License at
+ *
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *   Unless required by applicable law or agreed to in writing, software
+ *   distributed under the License is distributed on an "AS IS" BASIS,
+ *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *   See the License for the specific language governing permissions and
+ *   limitations under the License.
+-->
+<!-- Created with the help of http://www.droiddraw.org/ -->
+<TableLayout
+android:id="@+id/widget52"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:shrinkColumns="1,2"
+>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+<Button
+android:id="@+id/DAY"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/weekday"
+android:paddingTop="20dip"
+android:paddingBottom="20dip"
+android:ems="4">
+</Button>
+<Button
+android:id="@+id/DIRECTION"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/northbound"
+android:layout_weight="1"
+android:paddingTop="20dip"
+android:paddingBottom="20dip"
+>
+</Button>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+<CheckBox android:id="@+id/ALL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all">
+</CheckBox>
+<Button 
+android:id="@+id/LOCATE" 
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/locate" android:layout_weight="1" android:paddingTop="20dip" android:paddingBottom="20dip">
+</Button>
+
+</LinearLayout>
+</LinearLayout>
+
+<TableRow
+android:background="#f63232"
+>
+<TextView
+android:id="@+id/widget57"
+android:text="Train"
+android:paddingTop="10dip"
+android:paddingBottom="10dip"
+android:textColor="#ffffff" android:layout_width="40dip">
+</TextView>
+
+<Spinner
+ android:id="@+id/FROM"
+ android:layout_width="60dip"
+ android:layout_height="wrap_content"
+ android:layout_weight="1"
+ android:paddingTop="10dip"
+ android:paddingBottom="10dip"/>
+ 
+<Spinner
+ android:id="@+id/TO"
+ android:layout_width="60dip"
+ android:layout_height="wrap_content"
+ android:layout_weight="1"
+ android:paddingTop="10dip"
+ android:paddingBottom="10dip"/>
+
+</TableRow>
+<GridView
+android:id="@+id/SCHEDULE"
+android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:numColumns="3"
+android:columnWidth="60dip"
+>
+</GridView>
+</TableLayout>

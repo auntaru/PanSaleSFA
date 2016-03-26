@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="320sp" 
+	    android:id="@+id/displayTextView"
+	    android:text="Please press Show Records to display all the records!"
+	    />
+	<Button 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="Show Records"
+		android:id="@+id/searchButton"
+		/>
+	<TableRow
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	 	>
+		<Button 
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:text="Search"
+			android:id="@+id/demoSearchButton" 
+			android:layout_weight="1"
+			/>
+			
+		<Button 
+			android:layout_height="fill_parent" 
+			android:layout_width="fill_parent"
+			android:text="Insert"  
+			android:id="@+id/demoAddButton" 
+			android:layout_weight="1"
+			/>
+		<Button 
+			android:layout_height="fill_parent" 
+			android:layout_width="fill_parent"
+			android:text="Update"  
+			android:id="@+id/demoUpdateButton" 
+			android:layout_weight="1"
+		/>
+		<Button 
+			android:layout_height="fill_parent" 
+			android:layout_width="fill_parent"
+			android:text="Delete"  
+			android:id="@+id/demoDeleteButton" 
+			android:layout_weight="1"
+		/>
+	</TableRow>
+</LinearLayout>

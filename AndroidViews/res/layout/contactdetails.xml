@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableRow>
+		<TextView
+	    	android:text="  "
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1" />
+    		<EditText
+    		android:id="@+id/contactName"
+    		android:hint="@string/nameDefault"
+	    	android:width="150px"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:inputType="text|textCapWords" />
+	</TableRow>
+	<TableRow>
+		<TextView
+	    	android:text="  "
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1" />
+    		<EditText
+    		android:id="@+id/contactmobile"
+    		android:hint="@string/mobilePhoneDefault"
+	    	android:width="150px"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:inputType="phone" /> 
+	</TableRow>
+	<TableRow>
+		<TextView
+	    	android:text="  "
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1" />
+    		<EditText
+    		android:id="@+id/contactemail"
+    		android:hint="@string/emailDefault"
+	    	android:width="150px"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:inputType="textEmailAddress" /> 
+	</TableRow>
+	<TableLayout>
+	<TableRow>
+		<Button 
+	    	android:id="@+id/savecontactbutton"
+	    	android:text="Save Contact"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content" />
+	    <Button 
+	    	android:id="@+id/cancelcontactbutton"
+	    	android:text="Cancel"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content" />
+	</TableRow>
+	</TableLayout>
+</TableLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <item 
+        android:title="Vizualizare  instrumente plata "
+        android:id ="@+id/Vizualizareinstrumenteplata"
+        
+/>
+     <item 
+        android:title="Transfera pe server"
+        android:id ="@+id/TransferToServer "
+        
+/>
+
+     <item
+        android:title="Sterge toate comenzile"
+        android:id ="@+id/DeleteAllOrders"/>    
+     
+     
+     </menu>
