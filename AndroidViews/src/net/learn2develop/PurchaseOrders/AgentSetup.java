@@ -58,7 +58,8 @@ public class AgentSetup extends Activity implements Runnable {
 /* http://sfa.pangram.ro:8090/PostgresWebService/rest/sales/search/2/222
 <userPass><id>2</id><password>222</password><userName>Zaberca Petru</userName><zone>RESITA</zone></userPass>	
 */
-	    private final static String SERVICE_URI = "http://sfa.pangram.ro:8090/PostgresWebService/rest";
+	    private final static String SERVICE_URI = "http://sfa.pangram.ro:8088/PostgresWebService/rest";
+	    //private final static String SERVICE_URI = "http://sfa.pangram.ro:8090/PostgresWebService/rest";
         // private final static String SERVICE_URI = "http://192.168.61.3/SalesService/SalesService.svc";
 
 	    DataManipulator dm = null;

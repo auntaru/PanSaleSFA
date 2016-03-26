@@ -51,11 +51,11 @@ import com.fasterxml.jackson.databind.JsonNode;
 
 public class WebServiceSyncFrom extends ListActivity {
 	
-	private final static String SERVICE_URI         = "http://sfa.pangram.ro:8090/PostgresWebService/rest";
+	private final static String SERVICE_URI         = "http://sfa.pangram.ro:8088/PostgresWebService/rest";
 	// private final static String SERVICE_URI_TEMP = "http://192.168.61.207:8080/EmployeeDirectoryJAXRS20140420/rest";
 	// private final static String SERVICE_URI_TEMP = "http://sfa.pangram.ro:8090/EmployeeDirectoryJAXRS20140420/rest";
 	// private final static String SERVICE_URI_TEMP = "http://sfa.pangram.ro:8090/EmployeeDirectoryJAXRS20140422/rest";
-	private final static String SERVICE_URI_TEMP    = "http://sfa.pangram.ro:8090/EmployeeDirectoryJAXRS20140513/rest";
+	private final static String SERVICE_URI_TEMP    = "http://sfa.pangram.ro:8088/EmployeeDirectoryJAXRS20140513/rest";
 
 	// private final static String SERVICE_URI = "http://ftp.pangram.ro:9090/SalesService/SalesService.svc";
 	// private final static String SERVICE_URI = "http://192.168.61.3/SalesService/SalesService.svc";

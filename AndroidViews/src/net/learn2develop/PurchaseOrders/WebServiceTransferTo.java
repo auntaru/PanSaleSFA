@@ -21,7 +21,8 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import android.util.Log;
 
 public class WebServiceTransferTo extends Activity {
-	private final static String SERVICE_URI = "http://sfa.pangram.ro:8090/PostgresWebService/rest";
+	private final static String SERVICE_URI = "http://sfa.pangram.ro:8088/PostgresWebService/rest";
+	// private final static String SERVICE_URI = "http://sfa.pangram.ro:8090/PostgresWebService/rest";
 	// private final static String SERVICE_URI = "http://192.168.61.3/SalesService/SalesService.svc";
 	// private final static String SERVICE_URI = "http://ftp.pangram.ro:9090/SalesService/SalesService.svc";
 
